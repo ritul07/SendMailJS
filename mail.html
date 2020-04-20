@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mail Task</title>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="mail.js"></script>
+</head>
+
+<body>
+    <form id="myForm" method="post">
+        To : <input type="text" name="to"><br>
+        Subject : <input type="text" name="subject"><br>
+        Body : <input type="text" name="body"><br>
+        <input type="button" value="Send E-mail" onclick="sendEmail()">
+    </form>
+</body>
+
+</html>
